@@ -27,7 +27,7 @@ class StaticPagesControllerTest < ActionController::TestCase
   
   test "titles should be correct" do
     get :home
-    assert_select "title", "Home | #{@base_title}"
+    assert_select "title", "#{@base_title}"
     get :about
     assert_select "title", "About | #{@base_title}"
     get :help
