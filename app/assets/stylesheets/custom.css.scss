@@ -1,6 +1,12 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+@mixin box_sizing {
+  -moz-box-sizing:    box-sizing;
+  -webkit-box-sizing: box-sizing;
+  box-sizing:         box-sizing;
+}
+
 body {
   padding-top: 60px;
 }
@@ -87,4 +93,14 @@ footer {
       margin-left: 15px;
     }
   }
+}
+
+/* debug */
+
+.debug_dump {
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-top: 45px;
+  @include box_sizing;
 }
