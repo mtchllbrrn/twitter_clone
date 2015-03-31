@@ -12,6 +12,6 @@ class UsersControllerTest < ActionController::TestCase
   
   test 'titles should be correct' do
     get :new
-    assert_select 'title', "Sign Up | #{@base_title}"
+    assert_select 'title', "Sign up | #{@base_title}"
   end
 end
