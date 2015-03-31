@@ -52,5 +52,6 @@ end
 group :production do
   gem 'pg', '0.17.1' # PostgreSQL for Heroku deployment
   gem 'rails_12factor', '0.0.2' # Improves Rails' behavior on 12-factor providers
+  gem 'puma', '2.11.1' # Production server, better at handling traffic than WEBrick
 end
 
