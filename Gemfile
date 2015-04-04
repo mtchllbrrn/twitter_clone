@@ -25,6 +25,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass', '3.2.0.0'
 # include bcrypt for password hashing
 gem 'bcrypt', '3.1.7'
+# faker allows us to add sample users quickly
+gem 'faker', '1.4.2'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
